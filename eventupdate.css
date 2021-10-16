@@ -1,0 +1,38 @@
+.container{
+    border:5px solid black;
+    margin-top: 1rem;
+    padding:20px;
+    background-image: linear-gradient(to right top, #f00236, #f62686, #d85ec9, #a088f3, #5ca6ff, #26b6ff, #00c3fa, #00cfef, #00d8e1, #00dec1, #00e191, #35e053);
+}
+.head{
+    text-align: center;
+}
+.inputfield{
+    display: flex;
+    border: 3px solid black;
+    padding: 4px;
+    align-items: center;
+}
+.img-responsive{
+    margin : 10px;
+    height: 50%;
+    width: 50%;
+}
+.img{
+    display: flex;
+    height: 100% ;
+    justify-content: space-around;
+    align-items: stretch;
+    border: black;
+    padding: 2px;
+}
+.textfield{
+    padding:30px;
+}
+
+@media (max-width:480px){
+    .inputfield{
+        display: flex;
+        flex-direction: column;
+    }
+    }
